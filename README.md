@@ -1,5 +1,5 @@
 # Neobux_Automation
-A python program made for educationl purpose for better familirity using Selenium.
+A python program made for educationl purpose for better familiarity using Selenium.
 
 Steps for Pre-Execution setup--
   1.
