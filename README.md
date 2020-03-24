@@ -8,7 +8,7 @@ Steps for Pre-Execution setup--
   2.
     Install Selenium module in your system:
  USE: 'pip install selenium'
- 3.
+ 3. 
    ENJOY THE AUTOMATION 
  
  
