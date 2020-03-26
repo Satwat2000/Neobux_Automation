@@ -8,8 +8,16 @@ Steps for Pre-Execution setup--
   2.
     Install Selenium module in your system:
  USE: 'pip install selenium'
+        "or"
+ Open Comand prompt ----> python -c "import sys; print(sys.executable)"
+ GoTo the path provied from above--
+    Open Lib folder
+    Open site-pakages
+    Extract the Selenium.zip here
  3. 
    ENJOY THE AUTOMATION 
+ 
+ 
  
  
  
