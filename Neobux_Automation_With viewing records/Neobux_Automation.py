@@ -27,19 +27,17 @@ except OSError as error:
     print("Welcome Again...!!")
 
 """Accing file"""
-file_name =  os.path.join(path, "out.txt")
+date = datetime.date(datetime.now())
+file_name =  os.path.join(path, str(date))
 f = open(file_name, 'a')
 print(f)
 orig_stdout = sys.stdout #store orignality
 sys.stdout = f           #chnge stdout
 
 """Adding Time Stamps"""
-timestamp = 1545730073
-dt_object = datetime.fromtimestamp(timestamp)
+timestamp = datetime.now().strftime("%H:%M:%S")
 print()
-print()
-print()
-print("########## Accissing neobux At: ", str(dt_object), " ##########")
+print("########## Accissing neobux on ", str(timestamp), " ##########")
 print()
 
 # Assign the variables
@@ -51,41 +49,46 @@ browser = webd.Chrome(executable_path = 'C:\Chrome\chromedriver')
 browser.get(("https://www.neobux.com/m/l/?vl=7F60349574520478"))
 try:
     element = WebDriverWait(browser, 15).until(EC.presence_of_element_located((By.ID, 'dCfd1')))
+    print("-----LOGIN PAGE LOADED-----")
 except TimeoutException:
     print ("Login Page TIme Out!!")
     browser.quit()
 
 # Fill login data & Login
+print()
 #-----------------------
 """Input Usename"""
 username = browser.find_element_by_id("Kf1")
 username.send_keys(userstr)
+print("----Username Filled----")
 
 """Input Password"""
 passw = browser.find_element_by_id("Kf2")
 passw.send_keys(passstr)
+print("----Password Provided----")
 
 """Find capta (can throw error)"""
 try:
     capt = browser.find_element_by_id("Kf3")
     if(capt):
-        capt.click()#Check if its clicking
+        print("Capta Found---*****:")
+        capt.click()    #Check if its clicking
         time.sleep(10)
+        print("\tCapte Entered Successfully")
 except Exception:
-    print ("Capta not found !!")
-
-print("Loading ")
+    print ("Capta not found :)")
 
 """Click login"""
 login = browser.find_element_by_id("botao_login")
 login.click()
 
-
 #Go to the Advertisement Viewing Page
+print()
 #------------------------------------
 """Wait for Home page to load"""
 try:
     element = WebDriverWait(browser, 15).until(EC.presence_of_element_located((By.ID, 't_upg_bt')))
+    print("Home Page Loaded Successfully")
 except TimeoutException:
     print ("Home Page Time Out!!")       # Wait for Home page to load
     browser.quit()
@@ -93,8 +96,9 @@ except TimeoutException:
 """Open Add viewing page"""
 advertise = browser.find_element_by_id("navAds")
 advertise.click()
-
+print("----Page directed to Advertisement page")
 #Start viewing Advertisement
+print()
 #---------------------------
 """Initial declerations"""
 id = 1
@@ -105,13 +109,14 @@ red = "i"
 """Loop to view all Adds"""
 try:
     while(browser.find_element_by_id(star_+str(id))):
+        print(id)
         try:
             star = browser.find_element_by_id(star_+str(id))
             star.click();
-            print("Adertisement "+str(id)+" Clicked")
+            print("----Adertisement "+str(id)+" Clicked")
             red_dot = browser.find_element_by_id(red+str(id))
             red_dot.click();
-            print("Red Dot "+str(id)+"Clicked")
+            print("----Red Dot "+str(id)+"Clicked")
         except Exception:
             print("Id " +str(i)+ " Already Vesited")
 
@@ -120,27 +125,26 @@ try:
             time.sleep(2)
             browser.switch_to.window(browser.window_handles[1])
             element = WebDriverWait(browser, 17).until(EC.presence_of_element_located((By.CLASS_NAME, 'button small2 orange')))
-            print("close")
+            print("Viewing Advertisement "+id)
         except TimeoutException:
-            print ("Loading took too much time!")
+            print ("Viewing Advertisement "+str(id)+" ---->>Couldn't Find the Class element")
         '''Close the opend tab'''
         try:
             close_add = browser.find_element_by_class_name("button.small2.orange")
             close_add.click()
-            print("Tab closed")
+            print("0.001$ Added to your account -- closing tab")
         except Exception:
-            print("Add "+ str(id) +" Already Visited")
+            print("Advertisement already visited  -- closing tab")
             browser.close()
         finally:
             browser.switch_to.window(browser.window_handles[0])
 
         id = id + 1
-        print(id)
+        print()
 except Exception:
     print("All Adds Are Viewed")
 
-sys.stdout = orig_stdout
-f.close()
+sys.stdout = orig_stdout  #Restore stdout functionality
+f.close()                 #Closing the opend file
 
-"""Future Scope Refence"""
-#print('Filename:', filename, file=f)
+browser.quit();
