@@ -1,9 +1,9 @@
 # Neobux_Automation
 A python program made for educationl purpose for better familiarity using Selenium.
 
-Steps for Pre-Execution setup--
-  1.
-    Copy the Chrome folder in C-Drive (i.e ----> C:\ )
+Steps for Pre-Execution setup: <br>
+  1. <br>
+    Copy the Chrome folder in C-Drive (i.e ----> C:\ ) <br>
  WARNING: Saving the file anywhere else may result in program malfunctiong
   2.
     Install Selenium module in your system:
