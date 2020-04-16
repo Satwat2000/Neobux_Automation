@@ -1,6 +1,6 @@
 # Neobux_Automation
 ## A python program made for educationl purpose for better familiarity using Selenium.
-### Automateion of Paid To Click (PTC) Site. _ _ A soucre of free side income automated. _ _
+### Automateion of Paid To Click (PTC) Site. A soucre of free side income automated.
 
 ## Steps for Pre-Execution setup: <br>
   1. <br>
@@ -16,8 +16,7 @@
     ### "or" <br>
       _ _- USE: 'pip install selenium'_ _
  <br>       
- 3.<br>
-   ### **ENJOY THE AUTOMATION** 
+   ### ENJOY THE AUTOMATION 
  
  
  
