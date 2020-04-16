@@ -16,7 +16,7 @@
       _ _- USE: 'pip install selenium'_ _
  <br>       
  3. 
-   - ### **ENJOY THE AUTOMATION** 
+   ### **ENJOY THE AUTOMATION** 
  
  
  
