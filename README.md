@@ -8,18 +8,18 @@
  **WARNING: Saving the file anywhere else may result in program malfunctiong**
  <br>
  2. <br>
-  ## Install Selenium module in your system:
+ - **Install Selenium module in your system:**
    - Open Comand prompt ----> python -c "import sys; print(sys.executable)"
       - GoTo the path provied from above--
       - Open Lib folder
       - Open site-pakages
-      -Extract the Selenium.zip here
-    ### "or" <br>
-      _ _- USE: 'pip install selenium'_ _
- <br>       
-   ### ENJOY THE AUTOMATION 
- 
- 
+      - Extract the Selenium.zip here
+    <br>**"or"** <br>
+      _ _USE: 'pip install selenium'_ _
+ <br><br>
+  **ENJOY THE AUTOMATION** 
+ <br><br>
+<br><br> 
  
  
  
