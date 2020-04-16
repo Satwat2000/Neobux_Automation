@@ -5,8 +5,9 @@
 ## Steps for Pre-Execution setup: <br>
   1. <br>
    - Copy the Chrome folder in C-Drive (i.e ----> C:\ ) <br>
- **WARNING: Saving the file anywhere else may result in program malfunctiong** <br>
-  2.<br>
+ **WARNING: Saving the file anywhere else may result in program malfunctiong**
+ <br>
+ 2.
   ## Install Selenium module in your system:
    - Open Comand prompt ----> python -c "import sys; print(sys.executable)"
       - GoTo the path provied from above--
