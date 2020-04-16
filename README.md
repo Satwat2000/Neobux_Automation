@@ -1,21 +1,22 @@
 # Neobux_Automation
-A python program made for educationl purpose for better familiarity using Selenium.
+### A python program made for educationl purpose for better familiarity using Selenium.
 
-Steps for Pre-Execution setup: <br>
+##Steps for Pre-Execution setup: <br>
   1. <br>
-    Copy the Chrome folder in C-Drive (i.e ----> C:\ ) <br>
- WARNING: Saving the file anywhere else may result in program malfunctiong
-  2.
-    Install Selenium module in your system:
- USE: 'pip install selenium'
-        "or"
- Open Comand prompt ----> python -c "import sys; print(sys.executable)"
- GoTo the path provied from above--
-    Open Lib folder
-    Open site-pakages
-    Extract the Selenium.zip here
+   - Copy the Chrome folder in C-Drive (i.e ----> C:\ ) <br>
+ **WARNING: Saving the file anywhere else may result in program malfunctiong**
+  2.<br>
+  ## Install Selenium module in your system:
+   - Open Comand prompt ----> python -c "import sys; print(sys.executable)"
+      - GoTo the path provied from above--
+      - Open Lib folder
+      - Open site-pakages
+      -Extract the Selenium.zip here
+    ### "or"
+      _ _- USE: 'pip install selenium'_ _
+        
  3. 
-   ENJOY THE AUTOMATION 
+   - ## **_ _ENJOY THE AUTOMATION_ _** 
  
  
  
