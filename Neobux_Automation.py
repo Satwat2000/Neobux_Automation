@@ -10,8 +10,8 @@ from selenium.common import exceptions
 from selenium.common.exceptions import TimeoutException
 
 # Assign the variables
-userstr = 'uzumaki420'
-passstr = 'ska@734006'
+userstr = 'your_username'
+passstr = 'your_password'
 
 # Open the webpage
 browser = webd.Chrome(executable_path = 'C:\Chrome\chromedriver')
