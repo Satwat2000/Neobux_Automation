@@ -3,17 +3,13 @@
 ### Automateion of Paid To Click (PTC) Site. A soucre of free side income automated.
 
 ## Steps for Pre-Execution setup: <br>
-  1. <br>
-   - Copy the Chrome folder in C-Drive (i.e ----> C:\ ) <br>
- **WARNING: Saving the file anywhere else may result in program malfunctiong**
  <br>
- 2. <br>
+ 1. <br>
  - **Install Selenium module in your system:**
    - Open Comand prompt ----> python -c "import sys; print(sys.executable)"
       - GoTo the path provied from above--
-      - Open Lib folder
-      - Open site-pakages
-      - Extract the Selenium.zip here
+      - Open Lib --> site-pakages
+      - Extract the Selenium.zip there
     <br>**"or"** <br>
       _ _USE: 'pip install selenium'_ _
  <br><br>
@@ -21,7 +17,7 @@
  <br><br>
 <br><br> 
  
- 
+<h2> If any Errors with webdrivers below for webdrivers--</h2>
  
 Brouser Drivers:-
     >>Chrome:	https://sites.google.com/a/chromium.org/chromedriver/downloads
