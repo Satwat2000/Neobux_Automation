@@ -1,5 +1,5 @@
 # Neobux_Automation
-## To make your program Fully automated reffer automate_it.pdf
+## **!! To make your automation Effectively automated reffer **automate_it.pdf** !!**
 ## A python program made for educationl purpose for better familiarity using Selenium.
 ### Automateion of Paid To Click (PTC) Site. A soucre of free side income automated.
 
@@ -15,10 +15,7 @@
       - Extract the modules form the <module>.zip here
     <br>**"or"** <br>
       USE: 'pip install req.module'<br>
-      Required.Modules = { Selenium,<br>
-                           Tkinter, <br>
-                           PyQt5}
-     
+      Required.Modules = { Selenium, Tkinter, PyQt5 }
      
  <br><br>
   **ENJOY THE AUTOMATION** 
