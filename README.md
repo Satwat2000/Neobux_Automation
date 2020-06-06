@@ -3,6 +3,9 @@
 ## A python program made for educationl purpose for better familiarity using Selenium.
 ### Automateion of Paid To Click (PTC) Site. A soucre of free side income automated.
 
+### Aslo Dowmload https://github.com/Satwat2000/Neobux-Registration.git and run this program to first Register into Neobux
+#### or else Fatal Error may occour
+
 ## Steps for Pre-Execution setup: <br>
  <br>
  1. <br>
