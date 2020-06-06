@@ -12,8 +12,12 @@
       - Open Lib --> site-pakages
       - Extract the modules form the <module>.zip here
     <br>**"or"** <br>
-      _ _USE: 'pip install <Selenium,Tkinter,PyQt5>'_ _
-
+      USE: 'pip install req.module'<br>
+      Required.Modules = { Selenium,<br>
+                           Tkinter, <br>
+                           PyQt5}
+     
+     
  <br><br>
   **ENJOY THE AUTOMATION** 
  <br><br>
