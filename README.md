@@ -25,9 +25,9 @@
  
 <h2> If any Errors with webdrivers visit the site below--</h2>
 
-Brouser Drivers:-
-    >>Chrome:	https://sites.google.com/a/chromium.org/chromedriver/downloads
-    >>Edge:	https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/
-    >>Firefox:	https://github.com/mozilla/geckodriver/releases
-    >>Safari:	https://webkit.org/blog/6900/webdriver-support-in-safari-10/
+Brouser Drivers:- <br>
+    <p>>>Chrome:	https://sites.google.com/a/chromium.org/chromedriver/downloads</P>
+    <P>>>Edge:	https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/</p>
+    <P>>>Firefox:	https://github.com/mozilla/geckodriver/releases</p>
+    <p>>>Safari:	https://webkit.org/blog/6900/webdriver-support-in-safari-10/</p>
 
