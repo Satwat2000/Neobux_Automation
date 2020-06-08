@@ -5,8 +5,8 @@
 # Created by: PyQt5 UI code generator 5.13.0
 #
 # WARNING! All changes made in this file will be lost!
-
-
+import sys
+sys.path.insert(1, 'Records/img')
 from PyQt5 import QtCore, QtGui, QtWidgets
 use = None
 pas = None
@@ -20,7 +20,7 @@ class Ui_Dialog(object):
         self.label_3 = QtWidgets.QLabel(Dialog)
         self.label_3.setGeometry(QtCore.QRect(0, -10, 351, 221))
         self.label_3.setText("")
-        self.label_3.setPixmap(QtGui.QPixmap("D:/My Workspace/Automation/Neobux_gitrepo/Records/img/Neo.png"))
+        self.label_3.setPixmap(QtGui.QPixmap("Records/img/Neo.png"))
         self.label_3.setObjectName("label_3")
         self.label = QtWidgets.QLabel(Dialog)
         self.label.setGeometry(QtCore.QRect(140, 10, 141, 31))
@@ -35,7 +35,7 @@ class Ui_Dialog(object):
         self.label_4 = QtWidgets.QLabel(Dialog)
         self.label_4.setGeometry(QtCore.QRect(130, 30, 161, 16))
         self.label_4.setText("")
-        self.label_4.setPixmap(QtGui.QPixmap("D:/My Workspace/Automation/Neobux_gitrepo/Records/img/line.png"))
+        self.label_4.setPixmap(QtGui.QPixmap("Records/img/line.png"))
         self.label_4.setObjectName("label_4")
         self.pushButton = QtWidgets.QPushButton(Dialog)
         self.pushButton.setGeometry(QtCore.QRect(190, 160, 91, 31))
@@ -43,7 +43,7 @@ class Ui_Dialog(object):
         self.label_5 = QtWidgets.QLabel(Dialog)
         self.label_5.setGeometry(QtCore.QRect(10, 10, 61, 21))
         self.label_5.setText("")
-        self.label_5.setPixmap(QtGui.QPixmap("D:/My Workspace/Automation/Neobux_gitrepo/Records/img/nlogo.png"))
+        self.label_5.setPixmap(QtGui.QPixmap("Records/img/nlogo.png"))
         self.label_5.setObjectName("label_5")
         self.label_2 = QtWidgets.QLabel(Dialog)
         self.label_2.setGeometry(QtCore.QRect(110, 70, 71, 21))

@@ -1,3 +1,5 @@
+import sys
+sys.path.insert(1, 'Records/Module/')
 import ip, capip, Show, error
 from PyQt5.QtWidgets import QDialog, QApplication, QMessageBox
 class fetch():
