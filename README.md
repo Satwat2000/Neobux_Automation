@@ -8,7 +8,7 @@
 ## Enviroment setup for part 2 <br>
  <h4> Python --Version 3.6.8 and above required</h4>
  <p> Run setup.bat as Administrator </p>
- <p> Then, run Auomate_it.bat <p>
+ <p> Then, run Automate_it.bat <p>
      
  <br><br>
   **ENJOY THE AUTOMATION** 
